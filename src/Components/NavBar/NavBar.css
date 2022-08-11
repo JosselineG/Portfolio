@@ -1,5 +1,5 @@
 .nav {
-    background-color: rgba(0,0,0, 0.8);
+    background-color:  rgba(0, 0, 0, 0.8);
    
     color: white;
     overflow: hidden;
@@ -9,6 +9,7 @@
     max-height: 12vh;
     width: 100%;
 
+   
 }
 
 .navLinks ul {
@@ -30,6 +31,8 @@
 }
 
 .navLogo {
+    cursor: pointer;
+
     font-size: 25px;
     letter-spacing: 3px;
     margin: 10px;
@@ -39,10 +42,10 @@
 .navList li {
     display: inline;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    
+    cursor: pointer;
 
     font-size: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     margin: 10px;
     padding: 10px;
 }
@@ -53,11 +56,11 @@
     0 0 7px #fff,
     0 0 10px #fff,
     0 0 21px #fff,
-    0 0 42px rgb(26, 255, 0),
-    0 0 82px rgb(26, 255, 0),
-    0 0 92px rgb(26, 255, 0),
-    0 0 102px rgb(26, 255, 0),
-    0 0 151px rgb(26, 255, 0);
+    0 0 42px rgb(255, 255, 255),
+    0 0 82px rgb(255, 255, 255),
+    0 0 92px rgb(255, 255, 255),
+    0 0 102px rgb(255, 255, 255),
+    0 0 151px rgb(255, 255, 255);
 }
 
 .a{

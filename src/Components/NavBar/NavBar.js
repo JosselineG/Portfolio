@@ -2,15 +2,13 @@ import React from "react";
 import { Link } from 'react-scroll'
 import './NavBar.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { Button } from "react-bootstrap";
-import { white } from '@mui/material/colors';
 
 
 function NavBar() {
 
 
     return (
-        <div className="nav">
+        <nav className="nav">
             <div className="navLinks">
                 <div className="navLogo">
                     <Link to="/" smooth={true} spy={true} offset={0} duration={500}>
@@ -45,7 +43,7 @@ function NavBar() {
                     </ul>
                 </div>
             </div>
-        </div>
+        </nav>
 
     );
 }

@@ -1,6 +1,7 @@
 .prj{
-    background-color: red;
+    background:rgb(45, 45, 0);
     height: 500px;
     width: 100%;
     overflow: hidden;
+    color: white;
     }

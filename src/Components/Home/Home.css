@@ -7,18 +7,33 @@
     }
 
 .hom h1{
+    text-align: center;
+    color: white;
+
     margin-top: 0;
     margin-left: 20px;
-    color: white;
     font-size: 100px;
-    text-align: left;
+   
 }
 
+.hom h1:hover, .hom h1:active{
+    color: #fff;
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 1px #fff,
+    0 0 1px #fff,
+    0 0 32px rgb(185, 185, 1),
+    0 0 1px rgb(185, 185, 1),
+    0 0 0px rgb(185, 185, 1),
+    0 0 0px rgb(185, 185, 1),
+    0 0 0px rgb(185, 185, 1);
+}
 .hom h3{
+    text-align: center;
     margin-top: 100px;
     margin-bottom: 0;
     margin-left: 20px;
-    text-align: left;
+   
     color: white;
     font-size: 20px;
 }
