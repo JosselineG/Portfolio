@@ -1,16 +1,17 @@
 .nav {
-    background-color:  rgba(0, 0, 0, 0.8);
+    background-color:  rgba(0, 0, 0, 0.4);
    
     color: white;
     overflow: hidden;
-    position: sticky;
+    position:sticky;
 
     top: 0;
-    max-height: 12vh;
+    max-height: 115vh;
     width: 100%;
 
    
 }
+
 
 .navLinks ul {
     list-style-type: none;
