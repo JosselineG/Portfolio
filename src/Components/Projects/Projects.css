@@ -1,7 +1,140 @@
-.prj{
-    background:rgb(45, 45, 0);
-    height: 500px;
+.prj {
+    background: rgb(45, 45, 0);
+    height: 200vh;
     width: 100%;
     overflow: hidden;
     color: white;
-    }
+
+}
+
+.prjContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.prj1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+
+
+    margin: 15px;
+    padding: 15px;
+    width: 70%;
+    height: 50vh;
+}
+
+.prjContainer a{
+   color: white;
+    text-decoration: none;
+}
+
+   
+
+
+
+.prj1:hover {
+
+    /*offset-x | offset-y | blur radius | spread-radius | color  */
+    box-shadow: 1px 5px 50px 15px grey;
+    color: transparent;
+
+    background-color: transparent;
+    border: none;
+    background-image: url("../imagePrj1.PNG");
+    background-size: 90% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.prj2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+
+    margin: 15px;
+    padding: 15px;
+    width: 70%;
+    height: 50vh;
+}
+
+.prj2:hover {
+
+    /*offset-x | offset-y | blur radius | spread-radius | color  */
+    box-shadow: 1px 5px 50px 15px grey;
+    color: transparent;
+
+    background-image: url("../HomeProj2.PNG");
+    background-size: 90% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.prj3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+
+    margin: 15px;
+    padding: 15px;
+    width: 70%;
+    height: 50vh;
+}
+
+.prj3:hover {
+    
+
+    /*offset-x | offset-y | blur radius | spread-radius | color  */
+    box-shadow: 1px 5px 50px 15px grey;
+    color: transparent;
+
+    background-image: url("../imagePrj3.PNG");
+    background-size: 90% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.prj4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+
+    margin: 15px;
+    padding: 15px;
+    width: 70%;
+    height: 50vh;
+}
+
+.prj4:hover {
+
+    /*offset-x | offset-y | blur radius | spread-radius | color  */
+    box-shadow: 1px 5px 50px 15px grey;
+
+    color: transparent;
+    background-color: black;
+}
