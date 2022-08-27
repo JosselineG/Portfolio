@@ -1,7 +1,48 @@
 .abt{
 background:linear-gradient(0deg,rgb(45, 45, 0), black);
 width: 100%;
-height: 600px;
+height: 900px;
 overflow: hidden;
 color: white;
+}
+
+.container{
+    width: 100%;
+    height:  80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.infoAboutMe{
+    width: 50%;
+    height: 30%;
+}
+
+.infoAboutMe span{
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    word-spacing: 5px;
+   /*  letter-spacing: 15px; */
+}
+
+.skills-Logos{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+
+.skills-Logos div{
+    
+    width: 70px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
