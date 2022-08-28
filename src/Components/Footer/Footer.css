@@ -1,0 +1,43 @@
+.Footer{
+    background-color:rgba(0,0,0, 0.6);
+    min-height: auto;
+    min-width: 100%;
+    overflow: hidden;
+
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+ 
+    
+}
+
+.Footer h4{
+    color: white;
+    font-family:Georgia;
+
+    margin-right: 20px;
+    padding: 0;
+    
+}
+
+
+
+
+@media all and (max-width:494px) {
+
+.Footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap:nowrap;
+        
+}
+
+
+   
+}
+

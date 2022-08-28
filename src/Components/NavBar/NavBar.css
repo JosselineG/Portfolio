@@ -6,7 +6,7 @@
     position:sticky;
 
     top: 0;
-    max-height: 115vh;
+    height: 13vh;
     width: 100%;
 
    
@@ -58,9 +58,9 @@
     0 0 7px #fff,
     0 0 1px #fff,
     0 0 1px #fff,
-    0 0 42px rgb(185, 185, 1),
     0 0 40px rgb(185, 185, 1),
-    0 0 40px rgb(185, 185, 1),
+    0 0 5px rgb(185, 185, 1),
+    0 0 0px rgb(185, 185, 1),
     0 0 0px rgb(185, 185, 1),
     0 0 0px rgb(185, 185, 1);
 }
