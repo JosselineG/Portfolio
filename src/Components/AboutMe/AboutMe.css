@@ -16,14 +16,18 @@ color: white;
 }
 
 .infoAboutMe{
-    width: 50%;
-    height: 30%;
+    width: 70%;
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .infoAboutMe span{
-    font-size: 15px;
+    font-size: 20px;
     font-family:'Courier New', Courier, monospace;
-    word-spacing: 5px;
+    word-spacing: 2px;
    /*  letter-spacing: 15px; */
 }
 
@@ -46,3 +50,4 @@ color: white;
     text-align: center;
     align-items: center;
 }
+

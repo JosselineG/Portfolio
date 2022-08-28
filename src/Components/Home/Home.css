@@ -13,6 +13,8 @@
     margin-top: 0;
     margin-left: 20px;
     font-size: 100px;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 25px;
    
 }
 
@@ -36,4 +38,6 @@
    
     color: white;
     font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    word-spacing: 2px;
 }

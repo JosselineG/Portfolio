@@ -72,8 +72,13 @@ class ContactMe extends React.Component {
 
 
           <div className="info">
-            <h3>If you have any questions or want to say hello, contact me by filling out the form or emailing me at
-              guardadojosseline@gmail.com</h3>
+            <span>
+              
+              If you have any questions or want to say hello, 
+              contact me by filling out the form or emailing me at
+              guardadojosseline@gmail.com
+            
+            </span>
           </div>
 
         </div>

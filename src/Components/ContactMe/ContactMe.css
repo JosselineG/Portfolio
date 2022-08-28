@@ -67,6 +67,7 @@
 
 .formBox h3{
     text-align: center;
+   
 }
 
 
@@ -110,6 +111,12 @@
     display: flex;
     align-items: center;
 
-    width: 50%;
+    width: 30%;
 }
 
+.info span{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    word-spacing: 2px;
+    text-align: left;
+}
