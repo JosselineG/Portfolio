@@ -4,19 +4,24 @@
     width: 100%;
     overflow: hidden;
     
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     }
 
 .hom h1{
-    text-align: center;
-    color: white;
+    margin: 0px;
+    padding: 0px;
 
-    margin-top: 0;
-    margin-left: 20px;
-    font-size: 100px;
+    color: white;
+    font-size: 7vw;
     font-family:'Courier New', Courier, monospace;
     letter-spacing: 25px;
    
 }
+
 
 .hom h1:hover, .hom h1:active{
     color: #fff;
@@ -31,13 +36,27 @@
     0 0 0px rgb(185, 185, 1);
 }
 .hom h3{
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 0;
-    margin-left: 20px;
-   
+    margin:0px;
+    padding: 0px;
+
+    display:flex; 
+    flex-wrap: wrap;
+
     color: white;
     font-size: 20px;
     font-family:'Courier New', Courier, monospace;
     word-spacing: 2px;
+}
+
+
+@media all and (max-width:721px) {
+
+   
+     .hom h3{
+        font-size:3vw;
+    } 
+    
+    
+    
+
 }

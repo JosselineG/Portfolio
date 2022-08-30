@@ -26,24 +26,25 @@ function AboutMe() {
 
             Recently graduated from Lehman College with a bachelors degree in computer science,
             with a growing a passion for front end development, but with a goal in mind of becoming a full stack developer.
-            I want to be able to expand my knowledge and put it to use.
+            I want to be able to expand my knowledge and put it into practice.
 
 
           </span>
         </div>
 
+
         <div className='skills-Logos'>
 
           <motion.div
 
-            viewport={{ once: true, amount: "all" }}
+            viewport={{ once: true, amount: "some" }}
             initial={{ opacity: 0, x: -500 }}
 
             whileInView={{
               opacity: 1,
               x: 500,
-              scale: 2.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 4, delay: 0 }
+              scale: 1.5,
+              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 0 }
             }}>
 
             <div>
@@ -58,8 +59,8 @@ function AboutMe() {
             viewport={{ once:true, amount: "some" }}
             initial={{ opacity: 0, x: 500 }}
             whileInView={{
-              opacity: 1, x: -500, scale: 2.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 4, delay: 0 }
+              opacity: 1, x: -500, scale: 1.5,
+              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 0 }
             }}>
 
 
@@ -77,8 +78,8 @@ function AboutMe() {
             viewport={{ once: true, amount: "some" }}
             initial={{ opacity: 0, x: -500, scale: 0.5 }}
             whileInView={{
-              opacity: 1, x: 500, scale: 2.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 4, delay: 1 }
+              opacity: 1, x: 500, scale: 1.5,
+              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 1 }
             }}>
 
             <div>
@@ -94,8 +95,8 @@ function AboutMe() {
 
             initial={{ opacity: 0, x: 500 }}
             whileInView={{
-              opacity: 1, x: -500, scale: 2.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 4, delay: 1 }
+              opacity: 1, x: -500, scale: 1.5,
+              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 1 }
             }}>
 
             <div>
@@ -103,14 +104,7 @@ function AboutMe() {
             </div>
           </motion.div>
 
-          <motion.div
-
-            animate={{ rotateY: 360 }}
-            transition={{ duration: 4, delay: 1, repeat: Infinity }}>
-            <div>
-             SKILLS
-            </div>
-          </motion.div>
+        
 
           <motion.div
 
@@ -118,8 +112,8 @@ function AboutMe() {
 
             initial={{ opacity: 0, x: -500 }}
             whileInView={{
-              opacity: 1, x: 500, scale: 2.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 4, delay: 2 }
+              opacity: 1, x: 500, scale: 1.5,
+              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 2 }
             }}>
 
             <div>
@@ -133,8 +127,8 @@ function AboutMe() {
 
             initial={{ opacity: 0, x: 500 }}
             whileInView={{
-              opacity: 1, x: -500, scale: 2.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 4, delay: 2 }
+              opacity: 1, x: -500, scale: 1.5,
+              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 2 }
             }}>
 
             <div>
@@ -147,8 +141,8 @@ function AboutMe() {
 
             initial={{ opacity: 0, x: -500 }}
             whileInView={{
-              opacity: 1, x: 500, scale: 2.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 4, delay: 3 }
+              opacity: 1, x: 500, scale: 1.5,
+              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 3 }
             }}>
 
             <div>

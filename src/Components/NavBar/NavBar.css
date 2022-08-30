@@ -13,8 +13,13 @@
 }
 
 
-.navLinks ul {
+.navList ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 
     margin: 0;
     padding: 0;
@@ -40,8 +45,8 @@
     padding: 10px;
 }
 
-.navList li {
-    display: inline;
+
+.navList li{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     cursor: pointer;
 
@@ -68,8 +73,62 @@
 .a{
     justify-content: center;
     align-items: center;
-   
 
     margin: 0;
     padding: 0;
+}
+
+.Menu {/*This won't display the menu bar in a screen width greater than 494px*/
+    display: none;
+}
+
+
+@media all and (max-width:720px) {
+
+    .nav {
+    
+        height: 40vh;
+     
+    }
+
+    
+    .navLinks {
+   
+        display:block;
+        flex-direction: row;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        align-items: flex-start;
+      
+    }
+
+    .dropDownMenu {
+   
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+     
+    }
+ 
+    .Menu {
+        display:flex;
+    }  
+
+
+    .navList ul{
+       
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .navList li{
+        margin: 5px;
+        padding: 5px;
+    }
+        
 }
