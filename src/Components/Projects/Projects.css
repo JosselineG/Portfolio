@@ -138,3 +138,14 @@
     color: transparent;
     background-color: black;
 }
+
+@media all and (max-width:721px) {
+
+    .prjContainer {
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    
+    }
+
+}

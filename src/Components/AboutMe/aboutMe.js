@@ -9,7 +9,7 @@ import { DiCss3 } from "react-icons/di";
 import { DiGit } from "react-icons/di"
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaNodeJs } from "react-icons/fa";
-
+import { AiFillGithub } from 'react-icons/ai';
 
 function AboutMe() {
 
@@ -36,13 +36,12 @@ function AboutMe() {
         <div className='skills-Logos'>
 
           <motion.div
-
             viewport={{ once: true, amount: "some" }}
-            initial={{ opacity: 0, x: -500 }}
+            initial={{ opacity: 0, x: -100 }}
 
             whileInView={{
               opacity: 1,
-              x: 500,
+              x: 250,
               scale: 1.5,
               transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 0 }
             }}>
@@ -56,10 +55,12 @@ function AboutMe() {
 
           <motion.div
 
-            viewport={{ once:true, amount: "some" }}
-            initial={{ opacity: 0, x: 500 }}
+            viewport={{ once: true, amount: "some" }}
+            initial={{ opacity: 0, x: 100 }}
             whileInView={{
-              opacity: 1, x: -500, scale: 1.5,
+              opacity: 1,
+              x: -250,
+              scale: 1.5,
               transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 0 }
             }}>
 
@@ -76,9 +77,11 @@ function AboutMe() {
 
 
             viewport={{ once: true, amount: "some" }}
-            initial={{ opacity: 0, x: -500, scale: 0.5 }}
+            initial={{ opacity: 0, x: -100 }}
             whileInView={{
-              opacity: 1, x: 500, scale: 1.5,
+              opacity: 1,
+              x: 250,
+              scale: 1.5,
               transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 1 }
             }}>
 
@@ -93,9 +96,11 @@ function AboutMe() {
 
             viewport={{ once: true, amount: "some" }}
 
-            initial={{ opacity: 0, x: 500 }}
+            initial={{ opacity: 0, x: 100 }}
             whileInView={{
-              opacity: 1, x: -500, scale: 1.5,
+              opacity: 1,
+              x: -250,
+              scale: 1.5,
               transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 1 }
             }}>
 
@@ -104,15 +109,17 @@ function AboutMe() {
             </div>
           </motion.div>
 
-        
+
 
           <motion.div
 
             viewport={{ once: true, amount: "some" }}
 
-            initial={{ opacity: 0, x: -500 }}
+            initial={{ opacity: 0, x: -100 }}
             whileInView={{
-              opacity: 1, x: 500, scale: 1.5,
+              opacity: 1,
+              x: 250,
+              scale: 1.5,
               transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 2 }
             }}>
 
@@ -125,9 +132,11 @@ function AboutMe() {
 
             viewport={{ once: true, amount: "some" }}
 
-            initial={{ opacity: 0, x: 500 }}
+            initial={{ opacity: 0, x: 100 }}
             whileInView={{
-              opacity: 1, x: -500, scale: 1.5,
+              opacity: 1,
+              x: -250,
+              scale: 1.5,
               transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 2 }
             }}>
 
@@ -139,14 +148,34 @@ function AboutMe() {
 
             viewport={{ once: true, amount: "some" }}
 
-            initial={{ opacity: 0, x: -500 }}
+            initial={{ opacity: 0, x: -100 }}
             whileInView={{
-              opacity: 1, x: 500, scale: 1.5,
+              opacity: 1,
+              x: 250,
+              scale: 1.5,
               transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 3 }
             }}>
 
             <div>
               <DiGit style={{ color: "#F1502F", width: "50px", height: "50px" }} />
+            </div>
+
+          </motion.div>
+
+          <motion.div
+
+            viewport={{ once: true, amount: "some" }}
+
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{
+              opacity: 1,
+              x: -250,
+              scale: 1.5,
+              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 3 }
+            }}>
+
+            <div>
+              <AiFillGithub style={{ color: "white", width: "50px", height: "50px" }}/>
             </div>
 
           </motion.div>

@@ -1,7 +1,7 @@
 .abt{
 background:linear-gradient(0deg,rgb(45, 45, 0), black);
 width: 100%;
-height: 900px;
+height: 110vh;
 overflow: hidden;
 color: white;
 
@@ -9,11 +9,10 @@ color: white;
 
 .container{
 
-    height:70%;
-    
+    height:100vh;
     display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
+    flex-direction:column;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -22,71 +21,37 @@ color: white;
 
 .infoAboutMe{
     width: 60%;
-    height: 15%;
+   
 
     font-size: 20px;
     font-family:'Courier New', Courier, monospace;
     word-spacing: 2px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-   
 }
 
 .skills-Logos{
-    width: 50%;
-    height: 60%;
+    width: 60%;
+    height: 60vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content:center;
     flex-direction: column;
-    align-items: center;
     flex-wrap: nowrap;
    
 
 }
 
-.skillsSmallViewport{
-    display: none;
-}
-
-
 
 
 @media all and (max-width:721px) {
 
+    .abt{
+        height: 100vh;
+    }
+
     .container{
        
-        height:90%;
-        display:flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        height:90vh;
+        flex-wrap: nowrap;
      
     }
-    .skills-Logos{
-        display: none;
-            
-    }
-
-    
-    .infoAboutMe{
-    width: 60%;
-    height: 40%;
-
-   
-    }
-    
-    
-    .skills-Logos{
-      
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-
-    }
-
 
 }

@@ -29,8 +29,9 @@ class ContactMe extends React.Component {
         <h1>Contact</h1>
 
         <div className='fo'>
-          <div className='formBox'>
+          
 
+          <div className='formBox'>
             <form >
               <label htmlFor='fullName'>
                 Name:
@@ -66,7 +67,6 @@ class ContactMe extends React.Component {
                   <SendIcon sx={{ fontSize: 15 }} />
                 </button>
               </div>
-
             </form>
           </div>
 
@@ -75,14 +75,13 @@ class ContactMe extends React.Component {
             <span>
               
               If you have any questions or want to say hello, 
-              contact me by filling out the form or emailing me at
-              guardadojosseline@gmail.com
+              contact me by filling out the form.
             
             </span>
           </div>
 
-        </div>
 
+        </div>
 
 
       </div>

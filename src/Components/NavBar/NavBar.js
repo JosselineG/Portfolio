@@ -64,12 +64,12 @@ function NavBar() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="Projects" smooth={true} spy={true} offset={-100} duration={500}>
+                            <Link to="Projects" smooth={true} spy={true} offset={-55} duration={500}>
                                 Projects
                             </Link>
                         </li>
                         <li>
-                            <Link to="ContactMe" smooth={true} spy={true} offset={-100} duration={500}>
+                            <Link to="ContactMe" smooth={true} spy={true} offset={-55} duration={500}>
                                 Contact Me
                             </Link>
                         </li>
