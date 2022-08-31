@@ -9,18 +9,19 @@ import Button from '@mui/material/Button';
 function NavBar() {
 
     const [click, setClick] = useState(false);
-
+  
     const handleClick = () => {
 
         //Click is set as false. It will reverse the value, returning the opposite.  !click; // Returns true. 
 
+    
         if (!click) {
-            console.log("Clicked open");
+            console.log("Menu open");
             return setClick(true)
 
 
         }
-        console.log("Clicked closed");
+        console.log("Menu closed");
         return setClick(false)
 
     }
@@ -30,7 +31,7 @@ function NavBar() {
 
             <div className="navLinks">
 
-                <div className="dropDownMenu">
+                <div className="dropDownBar">
                    
                     <div className="navLogo">
 
@@ -46,7 +47,7 @@ function NavBar() {
 
                             onClick={handleClick} 
                             endIcon={<GiHamburgerMenu style={{ color: "white" }} />}>
-                            {/*    {click ? "Menu clicked" : "Menu"} */}
+                               
                        
                         </Button>
 
@@ -54,22 +55,27 @@ function NavBar() {
                     </div>
 
                 </div>
+ 
+            
 
+                {/*  simplified conditional operator like if / else. */}
+                {click ? ( 
                 <div className="navList">
-                    <ul>
+                    <ul >
 
                         <li>
-                            <Link to="AboutMe" smooth={true} spy={true} offset={-50} duration={500}>
+
+                            <Link onClick={()=>setClick(false)} to="AboutMe" smooth={true} spy={true} offset={-50} duration={500}>
                                 About Me
                             </Link>
                         </li>
                         <li>
-                            <Link to="Projects" smooth={true} spy={true} offset={-55} duration={500}>
+                            <Link onClick={()=>setClick(false)} to="Projects" smooth={true} spy={true} offset={-55} duration={500}>
                                 Projects
                             </Link>
                         </li>
                         <li>
-                            <Link to="ContactMe" smooth={true} spy={true} offset={-55} duration={500}>
+                            <Link onClick={()=>setClick(false)} to="ContactMe" smooth={true} spy={true} offset={-55} duration={500}>
                                 Contact Me
                             </Link>
                         </li>
@@ -82,7 +88,11 @@ function NavBar() {
                     </ul>
 
                 </div>
-            </div>
+
+                ): null}
+                
+           </div>
+            
         </nav>
 
     );

@@ -1,6 +1,6 @@
 .cont{
     background: linear-gradient(180deg,rgb(45, 45, 0), black);
-    height: 80vh;
+    height: 95vh;
     width: 100%;
     overflow: hidden;
     color: white;
@@ -102,7 +102,7 @@
 
 .cont{
        
-        height: 80vh;
+        height: 95vh;
        
 }
     

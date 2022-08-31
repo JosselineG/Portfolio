@@ -83,15 +83,10 @@
 }
 
 
+
+
 @media all and (max-width:720px) {
 
-    .nav {
-    
-        height: 40vh;
-     
-    }
-
-    
     .navLinks {
    
         display:block;
@@ -101,7 +96,7 @@
       
     }
 
-    .dropDownMenu {
+    .dropDownBar{
    
         display:flex;
         flex-direction: row;
@@ -120,6 +115,24 @@
     }  
 
 
+    .navList{
+        
+        height: 20vh;
+        background-color:  rgba(0, 0, 0, 0.4);
+   
+        color: white;
+        
+        position:sticky;
+    
+        top: 0;
+
+    }
+    .nav{
+       overflow: visible;
+       height: 7vh;
+        
+    }
+
     .navList ul{
         flex-direction: column;
         flex-wrap: nowrap;
@@ -132,5 +145,6 @@
         margin: 5px;
         padding: 5px;
     }
-        
+  
+ 
 }
