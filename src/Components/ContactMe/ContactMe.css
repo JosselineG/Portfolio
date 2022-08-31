@@ -1,9 +1,13 @@
 .cont{
-    background: linear-gradient(180deg,rgb(45, 45, 0), black);
+    background: linear-gradient(90deg, #766621,#daa46d,#7388a0 );
+    animation: LinearGradient 5s ease-in-out infinite;
+    background-size: 400% 400%;
+
     height: 95vh;
     width: 100%;
     overflow: hidden;
     color: white;
+   
     }
 
 .fo{
@@ -124,6 +128,21 @@
     height: 70vh;
 
 }
+
+
+}
+
+@keyframes LinearGradient {
+   
+    100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    0% {
+        background-position: 0% 50%;
+    }
 
 
 }

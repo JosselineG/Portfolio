@@ -7,18 +7,19 @@ import ContactMe from './Components/ContactMe/ContactMe';
 import Projects from './Components/Projects/Projects';
 import Footer from './Components/Footer/Footer';
 
+
 function App() {
   return (
 <div className="App" >
 
 
 
- <NavBar/>
- <Home/>
- <AboutMe/>
+ <NavBar />
+ <Home />
+ <AboutMe />
  <Projects/>
-<ContactMe/>
-<Footer/>
+<ContactMe />
+<Footer />
     </div>
    
   );

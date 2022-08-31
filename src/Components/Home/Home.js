@@ -1,12 +1,16 @@
 import React from 'react';
 import './Home.css'
-import 'animate.css'
+
+
+
 function Home() {
 
 
 
   return (
     <div className='hom' id='/'>
+
+      
 
       <div className='Heading1'>
       
@@ -16,9 +20,12 @@ function Home() {
       
       <div className='Heading2'>
       
-        <h1 class="animate__animated animate__bounceInDown" >JOSSELINE GUARDADO</h1>
+        <h1 className="animate__animated animate__bounceInDown" >JOSSELINE GUARDADO</h1>
       
       </div>
+
+    
+
    
     </div>
   );

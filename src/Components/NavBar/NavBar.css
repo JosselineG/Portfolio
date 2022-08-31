@@ -1,6 +1,6 @@
 .nav {
-    background-color:  rgba(0, 0, 0, 0.4);
-   
+    background:  rgba(0, 0, 0, 0.9);
+
     color: white;
     overflow: hidden;
     position:sticky;
@@ -93,7 +93,7 @@
 @media all and (max-width:720px) {
     .nav{
         overflow: visible;
-        height: 8.1vh;
+        height:max-content;
          
      }
  
@@ -103,6 +103,8 @@
         justify-content: flex-end;
         align-items: flex-start;
       
+        width: 100%;
+        height:max-content;
     }
 
     
@@ -118,6 +120,11 @@
 
     .navLogo{
         display: flex;
+
+       
+            margin: 5px;
+            padding: 5px;
+        
       
     }
 
@@ -149,10 +156,6 @@
         flex-wrap: nowrap;
         list-style-type: none;
         
-
-      
-
-        height: 20vh;
         
         margin: 0;
         padding: 0;
@@ -167,3 +170,4 @@
    
  
 }
+
