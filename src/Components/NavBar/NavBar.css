@@ -82,20 +82,30 @@
     display: none;
 }
 
+.menuLinks{
+    display: none;
+   
+}
+
 
 
 
 @media all and (max-width:720px) {
-
+    .nav{
+        overflow: visible;
+        height: 8.1vh;
+         
+     }
+ 
     .navLinks {
    
         display:block;
         justify-content: flex-end;
-        flex-wrap: nowrap;
         align-items: flex-start;
       
     }
 
+    
     .dropDownBar{
    
         display:flex;
@@ -105,46 +115,55 @@
      
     }
 
+
     .navLogo{
         display: flex;
       
     }
- 
+
+
     .Menu {
         display:flex;
     }  
 
 
-    .navList{
-        
-        height: 20vh;
-        background-color:  rgba(0, 0, 0, 0.4);
-   
-        color: white;
-        
+    .menuLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position:sticky;
+       
+        font-size: 20px;
+        background-color:  rgba(0, 0, 0, 0.4);
+        color: white;
     
-        top: 0;
-
-    }
-    .nav{
-       overflow: visible;
-       height: 7vh;
-        
     }
 
-    .navList ul{
+
+    .navList{
+        display: none;
+    }
+
+    .menuLinks ul{
         flex-direction: column;
         flex-wrap: nowrap;
+        list-style-type: none;
+        
 
+      
+
+        height: 20vh;
+        
         margin: 0;
         padding: 0;
     }
 
-    .navList li{
+
+    .menuLinks li{
         margin: 5px;
         padding: 5px;
     }
-  
+
+   
  
 }

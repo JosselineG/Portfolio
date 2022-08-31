@@ -9,12 +9,12 @@ import Button from '@mui/material/Button';
 function NavBar() {
 
     const [click, setClick] = useState(false);
-  
+
     const handleClick = () => {
 
         //Click is set as false. It will reverse the value, returning the opposite.  !click; // Returns true. 
 
-    
+
         if (!click) {
             console.log("Menu open");
             return setClick(true)
@@ -32,7 +32,7 @@ function NavBar() {
             <div className="navLinks">
 
                 <div className="dropDownBar">
-                   
+
                     <div className="navLogo">
 
                         <Link to="/" smooth={true} spy={true} offset={0} duration={500}>
@@ -43,39 +43,68 @@ function NavBar() {
 
                     <div className='Menu'>
 
-                        <Button 
+                        <Button
 
-                            onClick={handleClick} 
+                            onClick={handleClick}
                             endIcon={<GiHamburgerMenu style={{ color: "white" }} />}>
-                               
-                       
+
+
                         </Button>
 
 
                     </div>
 
                 </div>
- 
-            
+                <div className="menuLinks">
 
-                {/*  simplified conditional operator like if / else. */}
-                {click ? ( 
+                    {/*  simplified conditional operator like if / else. */}
+                    {click ? (
+
+                        <ul onClick={handleClick} >
+
+                            <li>
+
+                                <Link onClick={() => setClick(false)} to="AboutMe" smooth={true} spy={true} offset={-50} duration={500}>
+                                    About Me
+                                </Link>
+                            </li>
+                            <li>
+                                <Link onClick={() => setClick(false)} to="Projects" smooth={true} spy={true} offset={-55} duration={500}>
+                                    Projects
+                                </Link>
+                            </li>
+                            <li>
+                                <Link onClick={() => setClick(false)} to="ContactMe" smooth={true} spy={true} offset={-55} duration={500}>
+                                    Contact Me
+                                </Link>
+                            </li>
+                            <li>
+                                <a className="gitLogo" rel="noreferrer" href="https://github.com/JosselineG">
+
+                                    <GitHubIcon sx={{ color: 'white', fontSize: 20 }} />
+                                </a>
+                            </li>
+                        </ul>) : null}
+                </div>
+
+
+
                 <div className="navList">
-                    <ul >
+                    <ul>
 
                         <li>
 
-                            <Link onClick={()=>setClick(false)} to="AboutMe" smooth={true} spy={true} offset={-50} duration={500}>
+                            <Link onClick={() => setClick(false)} to="AboutMe" smooth={true} spy={true} offset={-50} duration={500}>
                                 About Me
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={()=>setClick(false)} to="Projects" smooth={true} spy={true} offset={-55} duration={500}>
+                            <Link onClick={() => setClick(false)} to="Projects" smooth={true} spy={true} offset={-55} duration={500}>
                                 Projects
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={()=>setClick(false)} to="ContactMe" smooth={true} spy={true} offset={-55} duration={500}>
+                            <Link onClick={() => setClick(false)} to="ContactMe" smooth={true} spy={true} offset={-55} duration={500}>
                                 Contact Me
                             </Link>
                         </li>
@@ -89,10 +118,8 @@ function NavBar() {
 
                 </div>
 
-                ): null}
-                
-           </div>
-            
+            </div>
+
         </nav>
 
     );
