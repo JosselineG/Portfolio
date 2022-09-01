@@ -34,7 +34,7 @@ function Projects() {
           First Portfolio</a>
          
          
-        <a className='prj4'>
+        <a className='prj4' href="https://github.com/JosselineG/Small-Business-Website">
           Mechanic Website
           {/*  <p> This is a website I created for a small business</p> */}
         </a>

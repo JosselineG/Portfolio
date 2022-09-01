@@ -94,7 +94,10 @@
     box-shadow: 1px 5px 50px 15px grey;
     background-color: transparent;
     color: transparent;
-    background-color: black;
+    background-image: url("../imagePrj4.PNG");
+    background-size: 90% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @media all and (max-width:721px) {

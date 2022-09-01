@@ -2,7 +2,7 @@
     background:  rgba(0, 0, 0, 0.6);
 
     color: white;
-    
+    overflow: hidden;
     position:sticky;
 
     top: 0;
@@ -92,7 +92,6 @@
 
 @media all and (max-width:720px) {
     .nav{
-        overflow: visible;
         height:max-content;
          
      }
