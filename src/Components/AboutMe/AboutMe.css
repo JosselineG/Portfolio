@@ -1,7 +1,5 @@
 .abt{
-    background: linear-gradient(90deg, #766621,#daa46d,#7388a0 );
-    animation: LinearGradient 5s ease-in-out infinite;
-    background-size: 400% 400%;
+   
 width: 100%;
 height: 110vh;
 overflow: hidden;
@@ -66,17 +64,3 @@ text-align: center;
     }
 }
 
-@keyframes LinearGradient {
-   
-    100% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    0% {
-        background-position: 0% 50%;
-    }
-
-
-}

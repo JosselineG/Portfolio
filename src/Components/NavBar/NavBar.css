@@ -1,8 +1,8 @@
 .nav {
-    background:  rgba(0, 0, 0, 0.9);
+    background:  rgba(0, 0, 0, 0.6);
 
     color: white;
-    overflow: hidden;
+    
     position:sticky;
 
     top: 0;

@@ -64,17 +64,17 @@ function NavBar() {
 
                             <li>
 
-                                <Link onClick={() => setClick(false)} to="AboutMe" smooth={true} spy={true} offset={-50} duration={500}>
+                                <Link onClick={() => setClick(false)} to="AboutMe" smooth={true} spy={true} offset={-200} duration={500}>
                                     About Me
                                 </Link>
                             </li>
                             <li>
-                                <Link onClick={() => setClick(false)} to="Projects" smooth={true} spy={true} offset={-55} duration={500}>
+                                <Link onClick={() => setClick(false)} to="Projects" smooth={true} spy={true} offset={-200} duration={500}>
                                     Projects
                                 </Link>
                             </li>
                             <li>
-                                <Link onClick={() => setClick(false)} to="ContactMe" smooth={true} spy={true} offset={-55} duration={500}>
+                                <Link onClick={() => setClick(false)} to="ContactMe" smooth={true} spy={true} offset={-200} duration={500}>
                                     Contact Me
                                 </Link>
                             </li>

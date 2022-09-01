@@ -3,7 +3,9 @@ import './ContactMe.css'
 import SendIcon from '@mui/icons-material/Send';
 
 class ContactMe extends React.Component {
-  constructor(props) {
+
+
+  /*constructor(props) {
     super(props);
     this.state = { fullName: "", email: "", message: "" };
   }
@@ -17,10 +19,10 @@ class ContactMe extends React.Component {
   handleSubmit = (e) => {
 
 
-    alert("message sent!" + this.state.fullName + " | " + this.state.email + " | " + this.state.message)
+    // alert("message sent!" + this.state.fullName + " | " + this.state.email + " | " + this.state.message) 
     this.setState({ fullName: "", email: "", message: "" })
     e.preventDefault();
-  }
+  }*/
 
 
   render() {
@@ -29,8 +31,10 @@ class ContactMe extends React.Component {
         <h1>Contact</h1>
 
         <div className='fo'>
-          
 
+          {/* Need to figure out how to get form info sent to my email */}
+
+          {/* 
           <div className='formBox'>
             <form >
               <label htmlFor='fullName'>
@@ -60,25 +64,33 @@ class ContactMe extends React.Component {
                 onChange={(e) => this.handleChange(e)}
                 value={this.state.message} />
 
-              <div className="btonContainer">
+              <div className="btonContainer" >
                 <button type='submit'
                   onClick={(e) => this.handleSubmit(e)}>
+                
                   Send
+                
                   <SendIcon sx={{ fontSize: 15 }} />
+              
                 </button>
               </div>
             </form>
-          </div>
-
+          </div> */}
 
           <div className="info">
             <span>
-              
-              If you have any questions or want to say hello, 
-              contact me by filling out the form.
-            
+
+              If you have any questions or want to say hello,
+              just hit Send.
+
             </span>
           </div>
+
+          <a href="mailto: Josseline.Guardado28@gmail.com?subject= Questions || Greetings">
+            Send</a>
+
+
+
 
 
         </div>
