@@ -170,3 +170,21 @@
  
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    .navLogo:hover{
+      animation: logo-spin infinite 3s linear;
+    
+    }
+  }
+
+  @keyframes logo-spin {
+    from {
+      transform: rotateY(0deg);
+      
+    }
+    to {
+      transform: rotateY(360deg);
+     
+    }
+    
+  }
