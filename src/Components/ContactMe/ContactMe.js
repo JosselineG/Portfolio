@@ -1,6 +1,8 @@
 import React from 'react';
-import './ContactMe.css'
-import SendIcon from '@mui/icons-material/Send';
+import './ContactMe.css';
+/* import SendIcon from '@mui/icons-material/Send'; */
+
+
 
 class ContactMe extends React.Component {
 
@@ -80,8 +82,7 @@ class ContactMe extends React.Component {
           <div className="info">
             <span>
 
-              If you have any questions or want to say hello,
-              just hit Send.
+              If you have any questions or want to say hello, hit send.
 
             </span>
           </div>

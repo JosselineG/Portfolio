@@ -1,4 +1,3 @@
-import { color } from '@mui/system';
 import React from 'react';
 import './Projects.css'
 
@@ -17,7 +16,7 @@ function Projects() {
         <a className='prj1' href='https://github.com/JosselineG/design-pad'>
          
           Design Pad
-          {/* <p>This is a group project</p> */}
+          {/* <p>Group project</p> */}
           
         </a>
        
@@ -35,7 +34,7 @@ function Projects() {
          
          
         <a className='prj4' href="https://github.com/JosselineG/Small-Business-Website">
-          Mechanic Website
+          Small Business Website
           {/*  <p> This is a website I created for a small business</p> */}
         </a>
           
