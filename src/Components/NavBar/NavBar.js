@@ -35,8 +35,8 @@ function NavBar() {
 
                     <div className="navLogo">
 
-                        <Link to="/" smooth={true} spy={true} offset={0} duration={500}>
-                            JossCode
+                        <Link className="logo" to="/" smooth={true} spy={true} offset={0} duration={500}>
+                            JG
                         </Link>
 
                     </div>
