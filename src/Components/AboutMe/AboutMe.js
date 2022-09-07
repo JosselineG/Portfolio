@@ -24,9 +24,9 @@ function AboutMe() {
           <span>
 
 
-            Recently graduated from Lehman College with a bachelors degree in computer science,
-            with a growing a passion for front end development, but with a goal in mind of becoming a full stack developer.
-            I want to be able to expand my knowledge and put it into practice.
+            Recently graduated from Lehman College with a bachelors degree in computer science. I have
+            a growing passion for front end development, but with a goal in mind of becoming a full stack developer.
+            I want to expand my knowledge and put it into practice.
 
 
           </span>
