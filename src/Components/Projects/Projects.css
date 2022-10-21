@@ -44,7 +44,6 @@
 
 
 
-
 .prj1:hover {
 
     /*offset-x | offset-y | blur radius | spread-radius | color  */
@@ -94,7 +93,7 @@
     box-shadow: 1px 5px 50px 15px grey;
     background-color: transparent;
     color: transparent;
-    background-image: url("../imagePrj4.PNG");
+    background-image: url("../Website\ Template\ img1.PNG");
     background-size: 90% 50%;
     background-position: center;
     background-repeat: no-repeat;
