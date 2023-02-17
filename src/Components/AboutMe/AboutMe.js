@@ -175,7 +175,7 @@ function AboutMe() {
             }}>
 
             <div>
-              <AiFillGithub style={{ color: "white", width: "50px", height: "50px" }}/>
+              <AiFillGithub style={{ color: "white", width: "50px", height: "50px" }} />
             </div>
 
           </motion.div>
