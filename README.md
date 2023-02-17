@@ -4,5 +4,5 @@ Updated version of my old portfolio
 
 ## Application Screenshots
 
-![](./src/Components/My%20Portfolio%20img1.PNG)
+![](./src/Components/Assets/My%20Portfolio%20img1.PNG)
 
