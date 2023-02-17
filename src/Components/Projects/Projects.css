@@ -23,7 +23,7 @@
 }
 
 
-.prj1, .prj2, .prj3, .prj4, .prj5{
+.prj1, .prj2, .prj3, .prj4, .prj5, .prj6{
     display: flex;
     justify-content:center;
     align-items: center;
@@ -111,6 +111,20 @@
     background-repeat: no-repeat;
 }
 
+.prj6:hover {
+
+
+    /*offset-x | offset-y | blur radius | spread-radius | color  */
+    box-shadow: 1px 5px 50px 15px grey;
+    background-color: transparent;
+    color: transparent;
+
+   background-image: url("../eCommercePreview.PNG");
+    background-size: 90% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 @media all and (max-width:721px) {
 
     .prj{
@@ -129,7 +143,7 @@
     }
 
     
-    .prj1, .prj2, .prj3, .prj4, .prj5{
+    .prj1, .prj2, .prj3, .prj4, .prj5, .prj6{
         width:50%;
         height: 50%;
 
