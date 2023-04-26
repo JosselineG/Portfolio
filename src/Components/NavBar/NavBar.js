@@ -94,7 +94,7 @@ function NavBar() {
 
                         <li>
 
-                            <Link  to="AboutMe" smooth={true} spy={true} offset={-50} duration={500}>
+                            <Link to="AboutMe" smooth={true} spy={true} offset={-60} duration={500}>
                                 About Me
                             </Link>
                         </li>
@@ -104,7 +104,7 @@ function NavBar() {
                             </Link>
                         </li>
                         <li>
-                            <Link  to="ContactMe" smooth={true} spy={true} offset={-55} duration={500}>
+                            <Link to="ContactMe" smooth={true} spy={true} offset={-55} duration={500}>
                                 Contact Me
                             </Link>
                         </li>

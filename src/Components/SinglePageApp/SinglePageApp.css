@@ -1,0 +1,70 @@
+.SinglePageApp {
+    text-align: center;
+
+
+    /* OLD Version
+    background: linear-gradient(90deg, #766621,#daa46d,#7388a0 ); 
+    animation: LinearGradient 5s ease-in-out infinite;
+    background-repeat: no-repeat;
+    background-size: 400% 400%;
+ */
+    position: absolute;
+    background: linear-gradient(90deg, #014760, #107e57, #cbe58e);
+    background-size: 250% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+    animation: LinearGradient 5s ease-in-out infinite;
+  
+
+
+}
+
+.Main {
+    background-image: url('../Assets/wave-haikei (3).png') , url('../Assets/wave-haikei (4).png');
+
+    position: relative;
+    background-size: 50% 200%, 50% 200%;
+    background-repeat: no-repeat,no-repeat;
+    background-position: left, right;
+    z-index: 7;
+
+/*  animation: name|animation-duration|animation-timing-functiony|animation-delay |animation-iteartion-count|animation-direction; */
+    animation: wave 6s linear 5s infinite alternate both ;
+    image-rendering:auto; 
+
+
+}
+
+@keyframes LinearGradient {
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+
+}
+
+
+@keyframes wave {
+
+    100% {
+        
+        background-position-y: 100%, 100%;
+    }
+
+    0% {
+        background-position-y: 0%, 0%;
+    }
+
+
+
+}

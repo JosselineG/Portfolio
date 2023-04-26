@@ -17,33 +17,21 @@ function AboutMe() {
   return (
     <div className='abt' id="AboutMe">
 
-      <h1>About</h1>
+  
 
       <div className='container'>
-        <div className='infoAboutMe'>
-          <span>
 
-
-            Recently graduated from Lehman College with a bachelors degree in computer science. I have
-            a growing passion for front end development, but with a goal in mind of becoming a full stack developer.
-            I want to expand my knowledge and put it into practice.
-
-
-          </span>
-        </div>
-
-
-        <div className='skills-Logos'>
+        <div className='skills-LogosL'>
 
           <motion.div
             viewport={{ once: true, amount: "some" }}
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: 200 }}
 
             whileInView={{
               opacity: 1,
-              x: 250,
+              x: -50,
               scale: 1.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 0 }
+              transition: { type: "tween", ease: "anticipate", repeatType: "mirror", duration: 3, delay: 0 }
             }}>
 
             <div>
@@ -56,12 +44,12 @@ function AboutMe() {
           <motion.div
 
             viewport={{ once: true, amount: "some" }}
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: 200 }}
             whileInView={{
               opacity: 1,
-              x: -250,
+              x: -50,
               scale: 1.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 0 }
+              transition: { type: "tween", ease: "anticipate", repeatType: "mirror", duration: 3, delay: 1 }
             }}>
 
 
@@ -77,12 +65,12 @@ function AboutMe() {
 
 
             viewport={{ once: true, amount: "some" }}
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: 200 }}
             whileInView={{
               opacity: 1,
-              x: 250,
+              x: -50,
               scale: 1.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 1 }
+              transition: { type: "tween", ease: "anticipate", repeatType: "mirror", duration: 3, delay: 2 }
             }}>
 
             <div>
@@ -96,32 +84,66 @@ function AboutMe() {
 
             viewport={{ once: true, amount: "some" }}
 
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: 200 }}
             whileInView={{
               opacity: 1,
-              x: -250,
+              x: -50,
               scale: 1.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 1 }
+              transition: { type: "tween", ease: "anticipate", repeatType: "mirror", duration: 3, delay: 3 }
             }}>
 
             <div>
               <AiFillHtml5 style={{ color: "orange", width: "50px", height: "50px" }} />
             </div>
           </motion.div>
+        </div>
+
+       
+          <motion.div
+            className='infoAboutMe'
+            
+            viewport={{ once: true, amount: 0.8 }}
+            initial={{ opacity: 0, y: 10 }}
+
+            whileInView={{
+              opacity: 1,
+              y: -30,
+              rotate: -5,
+              transition: {
+                type: "spring",
+                bounce: 0.7,
+                duration: 1.3
+              }
+            }} >
+
+        
+              I have a passion for front end development, but with a goal in mind of becoming a
+              full stack developer. I have 1+ years of experience developing React web applications.
+              Currently, I'm expanding my skills through self-learning of back-end development.
+              I am motivated to gain new knowledge, prepared to put my skills to use and be able to
+              contribute to the growing field of technology.
 
 
+
+          </motion.div>
+
+       
+
+
+        <div className='skills-LogosR'>
 
           <motion.div
 
             viewport={{ once: true, amount: "some" }}
 
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -200 }}
             whileInView={{
               opacity: 1,
-              x: 250,
+              x: 50,
               scale: 1.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 2 }
-            }}>
+              transition: { type: "tween", ease: "anticipate",  repeatType: "mirror", duration: 3, delay: 0 }
+           
+         }}>
 
             <div>
               <SiMysql style={{ background: "linear-gradient(to right, #00758F, #F29111)", width: "40px", height: "40px" }} />
@@ -132,12 +154,12 @@ function AboutMe() {
 
             viewport={{ once: true, amount: "some" }}
 
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: -200 }}
             whileInView={{
               opacity: 1,
-              x: -250,
+              x: 50,
               scale: 1.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 2 }
+              transition: { type: "tween", ease: "anticipate", repeatType: "mirror", duration: 3, delay: 1 }
             }}>
 
             <div>
@@ -148,12 +170,12 @@ function AboutMe() {
 
             viewport={{ once: true, amount: "some" }}
 
-            initial={{ opacity: 0, x: -100 }}
+            initial={{ opacity: 0, x: -200 }}
             whileInView={{
               opacity: 1,
-              x: 250,
+              x: 50,
               scale: 1.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 3 }
+              transition: { type: "tween", ease: "anticipate",  repeatType: "mirror", duration: 3, delay: 2 }
             }}>
 
             <div>
@@ -166,12 +188,12 @@ function AboutMe() {
 
             viewport={{ once: true, amount: "some" }}
 
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: -200 }}
             whileInView={{
               opacity: 1,
-              x: -250,
+              x: 50,
               scale: 1.5,
-              transition: { type: "tween", ease: "easeInOut", repeat: Infinity, repeatType: "reverse", duration: 3, delay: 3 }
+              transition: { type: "tween", ease: "anticipate",  repeatType: "mirror", duration: 3, delay: 3 }
             }}>
 
             <div>
@@ -181,8 +203,10 @@ function AboutMe() {
           </motion.div>
 
         </div>
+
+
       </div>
-    </div>
+    </div >
   );
 }
 

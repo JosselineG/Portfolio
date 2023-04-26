@@ -1,0 +1,208 @@
+.Project {
+
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+
+    background-color: black;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.Pbox {
+    /* Main Container */
+
+    height: 80vh;
+    width: 70%;
+    border-radius: 30px;
+    overflow: hidden;
+
+    background: linear-gradient(80deg, #014760, #107e57);
+    background-size: 100% 100%;
+
+
+}
+
+.buttonlink {
+    height: 8vh;
+    width: 20%;
+}
+
+/* ----------------------Navigation CSS--------------------------- */
+.Pnav {
+    /* Primary Nav Bar */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    height: 8vh;
+    width: 100%;
+    /* width of entire nav */
+}
+
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 8vh;
+    width: 60%;
+}
+
+
+
+.tab1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #2C3531;
+
+    height: 8vh;
+    width: 45%;
+}
+
+.closeX {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 8vh;
+    width: 10%;
+}
+
+.closeX a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+}
+
+.closeX :hover {
+    background-color: red;
+}
+
+
+/* ---------------------Overview Container-------------------------- */
+
+
+.Sbox {
+    /* Secondary Container */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+    height: 73vh;
+    width: 100%;
+
+
+}
+
+.ImgCode {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    width: 35%;
+    height: 70vh;
+
+}
+
+.ImgCode img {
+
+    width: 85%;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.descriptionBox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    width: 60%;
+
+}
+
+.descriptionBox h1 {
+    padding: 0px;
+    margin: 0px
+}
+
+.descriptionBox li {
+    list-style-type: none;
+}
+
+/* -----Responsive----- */
+
+
+
+@media all and (max-width:721px) {
+
+    .Pbox {
+        height: 95%;
+        width: 90%;
+    }
+
+    .Pnav {
+        height: 8%;
+    }
+
+    .tab1 {
+        width: 70%;
+    }
+
+    .Sbox {
+        /* Secondary Container */
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        overflow: auto;
+
+        height: 87%;
+        width: 95%;
+
+    }
+
+    .ImgCode {
+
+
+        width: 100%;
+        height: 30%;
+    }
+
+    .ImgCode img {
+        margin: 10px;
+        width: 70%;
+        height: 70%;
+    }
+
+    .ImgCode h3 {
+        font-size: 15px;
+    }
+
+    .descriptionBox {
+        justify-content: center;
+
+        width: 95%;
+        height: 100%;
+
+
+    }
+
+
+
+}

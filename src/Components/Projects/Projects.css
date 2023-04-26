@@ -1,151 +1,234 @@
 .prj {
-   
-    height: 130vh;
+
+    height: 200vh;
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
     color: white;
 
+    margin: 5% 0;
 
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prj h1 {
+    margin: 20px 0;
 }
 
 .prjContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 
 
-   
-    height: 100vh;
-
+    height: 150vh;
+    width: 100%;
 }
 
 
-.prj1, .prj2, .prj3, .prj4, .prj5, .prj6{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    
-    background-color: rgba(0, 0, 0, 0.7);
+.prjs {
+    align-self: center;
+    justify-self: center;
+
+    background-color: rgb(19, 18, 18);
     border-radius: 15px;
 
 
-    margin: 10px;
-    padding: 10px;
-    width: 20%;
-    height: 40vh;
+    /*offset-x | offset-y | blur radius | spread-radius | color  */
+    box-shadow: -10px 0px 20px 3px rgb(0, 0, 0);
 
-    font-size: 4vw;
-    color: white;
+    padding: 30px;
+    width: 60%;
+    height: 30vh;
     text-decoration: none;
+
+    animation: infinite alternate;
+    transition: 0.7s ease-in-out;
+
+}
+
+.prjs h1 {
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    user-select: none;
+    /* To disable text selection */
+    margin: 0;
 }
 
 
+#prj1:hover {
 
-.prj1:hover {
 
-    /*offset-x | offset-y | blur radius | spread-radius | color  */
-    box-shadow: 1px 5px 50px 15px grey;
+
     color: transparent;
-
     background-color: transparent;
     border: none;
     background-image: url("../Assets/imagePrj1.PNG");
-    background-size: 90% 50%;
+    background-size: 70% 60%;
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
+
+    transform: rotate(-4deg) translateY(-25px);
+    transition: 0.7s ease-in;
 }
 
 
-.prj2:hover {
 
-    /*offset-x | offset-y | blur radius | spread-radius | color  */
-    box-shadow: 1px 5px 50px 15px grey;
+#prj2:hover {
+
+
     color: transparent;
     background-color: transparent;
     background-image: url("../Assets/HomeProj2.PNG");
-    background-size: 90% 50%;
+    background-size: 70% 60%;
     background-position: center;
     background-repeat: no-repeat;
-
+    transition: 0.7s ease-in;
+    transform: rotate(-4deg) translateY(-25px);
 }
 
-.prj3:hover {
-    
+#prj3:hover {
 
-    /*offset-x | offset-y | blur radius | spread-radius | color  */
-    box-shadow: 1px 5px 50px 15px grey;
+
+
     color: transparent;
     background-color: transparent;
     background-image: url("../Assets/imagePrj3.PNG");
-    background-size: 90% 50%;
+    background-size: 70% 60%;
     background-position: center;
     background-repeat: no-repeat;
+
+
+    transition: 0.7s ease-in;
+    transform: rotate(-4deg) translateY(-25px);
 }
 
 
-.prj4:hover {
-
-    /*offset-x | offset-y | blur radius | spread-radius | color  */
-    box-shadow: 1px 5px 50px 15px grey;
+#prj4:hover {
     background-color: transparent;
     color: transparent;
-    background-image: url("../Assets/Website\ Template\ img1.PNG");
-    background-size: 90% 50%;
+    background-image: url("../Assets/My\ Portfolio\ img1.PNG");
+    background-size: 70% 60%;
     background-position: center;
     background-repeat: no-repeat;
+
+    transition: 0.7s ease-in;
+    transform: rotate(-4deg) translateY(-25px);
+
 }
 
-.prj5:hover {
+#prj5:hover {
 
-    /*offset-x | offset-y | blur radius | spread-radius | color  */
-    box-shadow: 1px 5px 50px 15px grey;
     background-color: transparent;
     color: transparent;
     background-image: url("../Assets/WordleCapt.PNG");
-    background-size: 90% 50%;
+    background-size: 70% 60%;
     background-position: center;
     background-repeat: no-repeat;
+
+
+    transition: 0.7s ease-in;
+    transform: rotate(-4deg) translateY(-25px);
 }
 
-.prj6:hover {
+#prj6:hover {
 
 
-    /*offset-x | offset-y | blur radius | spread-radius | color  */
-    box-shadow: 1px 5px 50px 15px grey;
+
     background-color: transparent;
     color: transparent;
 
-   background-image: url("../Assets/eCommercePreview.PNG");
-    background-size: 90% 50%;
+    background-image: url("../Assets/eCommercePreview.PNG");
+    background-size: 70% 60%;
     background-position: center;
     background-repeat: no-repeat;
+
+    transition: 0.7s ease-in;
+    transform: rotate(-4deg) translateY(-25px);
 }
+
+#prj7:hover {
+
+
+    background-color: transparent;
+    color: transparent;
+
+    background-image: url("../Assets/RegisterCapt2.PNG");
+    background-size: 70% 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transition: 0.7s ease-in;
+    transform: rotate(-4deg) translateY(-25px);
+}
+
+
+
+
+
 
 @media all and (max-width:721px) {
 
-    .prj{
+    .prj {
 
-        height: 180vh;
-
+        height: 200vh;
+        margin: 20% 0;
     }
+
     .prjContainer {
-        flex-direction: column;
-        flex-wrap: nowrap;
+        display: grid;
+        grid-template-columns: auto;
         height: 160vh;
-    }
-
-    .prjContainer h1{
-        font-size: 5vw;
-    }
-
-    
-    .prj1, .prj2, .prj3, .prj4, .prj5, .prj6{
-        width:50%;
-        height: 50%;
 
     }
+
+
+    .prjs {
+        width: 50%;
+        height: 10vh;
+
+    }
+
+    #prj1,
+    #prj3,
+    #prj5,
+    #prj7 {
+        transition: 0.7s ease-out;
+        transform: rotate(-4deg) translateX(-25px);
+    }
+
+    #prj2,
+    #prj4,
+    #prj6 {
+        transition: 0.7s ease-out;
+        transform: rotate(4deg) translateX(25px);
+
+    }
+
+    #prj1:hover,
+    #prj3:hover,
+    #prj5:hover,
+    #prj7:hover {
+        transition: 0.7s ease-out;
+        transform: translateY(-10px);
+    }
+
+    #prj2:hover,
+    #prj4:hover,
+    #prj6:hover {
+        transition: 0.7s ease-out;
+        transform: translateY(-10px);
+
+    }
+
+
+
+
 }

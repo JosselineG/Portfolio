@@ -1,66 +1,132 @@
-.abt{
-   
-width: 100%;
-height: 110vh;
-overflow: hidden;
-color: white;
-text-align: center;
+.abt {
+
+    width: 100%;
+    height: 120vh;
+
+    color: rgb(255, 255, 255);
+    overflow: visible;
+    text-align: center;
 }
 
-.container{
+.abt h1 {
 
-    height:95vh;
+    margin: 10px 0;
+
+}
+
+
+.container {
+
     display: flex;
-    flex-direction:column;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    flex-wrap: nowrap;
+
+    height: 100vh;
 }
 
 
 
-.infoAboutMe{
-    width: 60%;
-   
 
-    font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    word-spacing: 2px;
-}
+.infoAboutMe {
 
-.skills-Logos{
-    width: 60%;
-    height: 65vh;
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(19, 18, 18);
+    box-shadow: -20px -10px 25px 5px rgb(0, 0, 0);
+    border-radius: 10px;
+
+
+    width: 40%;
+    height: auto;
+
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills-LogosL {
+
+    display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
-    flex-wrap: nowrap;
-   
+    align-items: center;
+
+
+    width: 30%;
+    height: 100vh;
+
 
 }
 
+.skills-LogosR {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+
+    width: 30%;
+    height: 100vh;
+
+
+}
 
 
 
 @media all and (max-width:721px) {
 
-    .abt{
-        height: 150vh;
+
+    .abt {
+        height: 120vh;
     }
 
-    .container{
-       
-        height:130vh;
-        flex-wrap: nowrap;
-     
+    .container {
+        height: 110vh;
+
+
     }
 
-    .skills-Logos{
-        justify-content: flex-start;
+    .skills-LogosR {
+        justify-content: space-evenly;
+        height: 110vh;
+        width: 50%;
+        z-index: 8;
+
+        padding-left: 30px;
+
     }
 
-    .infoAboutMe{
-        width: 70%;
+    .skills-LogosL {
+        justify-content: space-evenly;
+        height: 110vh;
+        width: 50%;
+        z-index: 8;
+        padding-right: 30px;
+
+
     }
+
+    .infoAboutMe {
+
+        position: absolute;
+        z-index: 1;
+
+        height: auto;
+        width: 60%;
+        margin: 0px;
+        padding: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
 }
-

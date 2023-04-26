@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css'
+import { Link } from 'react-router-dom'
 
 
 function Projects() {
@@ -7,22 +8,31 @@ function Projects() {
 
 
   return (
-    <div className='prj' id='Projects'>
-      
-      <h1>Projects</h1>
+    <div id="Projects" className='prj'>
+      <div className='prjContainer'>  
+ 
 
-      <div className='prjContainer'>
+          
+            <Link className='prjs' id='prj1' to='Project1'><h1> Design Pad </h1></Link>
 
-        <a className='prj1' href='https://github.com/JosselineG/design-pad'> Design Pad </a>
-        <a className='prj2' href='https://github.com/JosselineG/My2Project'> Weather App </a>
-        <a className='prj3' href='https://github.com/JosselineG/josselineg.github.io'> Older Portfolio </a>
-        <a className='prj4' href="https://github.com/JosselineG/Small-Business-Website"> Small Business Website </a>
-        <a className='prj5' href="https://github.com/JosselineG/Wordle-Clone"> Wordle Clone ESP </a>
-        <a className='prj6' href="https://github.com/JosselineG/Ecommerce-Template"> Food Ecommerce Store </a>
+            <Link className='prjs' id='prj2' to='Project2'> <h1> Weather App</h1> </Link>
 
-      </div>
+            <Link className='prjs' id='prj3' to='Project3'> <h1> Older Portfolio </h1></Link>
 
-    </div>
+            <Link className='prjs' id='prj4' to='Project4'><h1>  Portfolio</h1> </Link>
+
+            <Link className='prjs' id='prj5' to='Project5'> <h1> Wordle Clone ESP </h1></Link>
+
+            <Link className='prjs' id='prj6' to='Project6'><h1>  Ecommerce Store </h1></Link>
+
+            <Link className='prjs' id='prj7' to='Project7'> <h1> Registration Form </h1></Link>
+
+     
+  
+
+       </div> 
+
+    </div>  
   );
 }
 

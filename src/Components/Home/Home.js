@@ -1,28 +1,34 @@
 import React from 'react';
 import './Home.css'
-
+import { TypeAnimation } from 'react-type-animation';
 
 function Home() {
 
   return (
-    
+
     <div className='hom' id='/'>
+      <div className='Title'>
+      <h3>Welcome, my name is</h3>
+      <div>
+      <TypeAnimation
+          
+            sequence={[
+              
+              'JOSSELINE GUARDADO',
+              6000,
+             
 
-      <div className='Heading1'>
-
-        <h3>Welcome, my name is</h3>
-
+              () => {
+                console.log('Sequence completed');
+              },
+            ]}
+            wrapper="h2"
+            cursor={true}
+            repeat={Infinity}
+            speed={{type: 'keyStrokeDelayInMs', value: 250}}
+          />
       </div>
-
-      <div className='Heading2'>
-
-        <h1 className="animate__animated animate__bounceInDown" >JOSSELINE GUARDADO</h1>
-
       </div>
-
-
-
-
     </div>
   );
 }

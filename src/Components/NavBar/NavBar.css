@@ -1,6 +1,7 @@
 .nav {
-    background:  rgba(0, 0, 0, 0.6);
-
+    background:  rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(3px);
+    
     color: white;
     overflow: hidden;
     position:sticky;
@@ -8,7 +9,8 @@
     top: 0;
     height: 13vh;
     width: 100%;
-
+    z-index: 9;/* specifies the stack order of an element,
+    element with greater stack order is always in front of an element with a lower stack order. */
    
 }
 
@@ -60,14 +62,8 @@
 
     color: #fff;
     text-shadow: 
-    0 0 7px #fff,
-    0 0 1px #fff,
-    0 0 1px #fff,
-    0 0 40px rgb(185, 185, 1),
-    0 0 5px rgb(185, 185, 1),
-    0 0 0px rgb(185, 185, 1),
-    0 0 0px rgb(185, 185, 1),
-    0 0 0px rgb(185, 185, 1);
+    0px 0px 20px #fff,
+    0px 0px 20px rgb(185, 185, 1)
 }
 
 .a{

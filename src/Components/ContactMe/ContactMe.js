@@ -1,104 +1,35 @@
 import React from 'react';
 import './ContactMe.css';
-/* import SendIcon from '@mui/icons-material/Send'; */
+import { motion } from "framer-motion"
 
+function ContactMe() {
 
+  return (
+    <div className='Contact' id='ContactMe'>
 
-class ContactMe extends React.Component {
+        <motion.div
+          className='info'
+          viewport={{ once: true, amount: "some" }}
+          initial={{ opacity: 0, y: 200 }}
 
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: "spring",
+              bounce: 0.7,
+              duration: 2
+            }
+          }}>
+          I appreciate you taking the time to view my portfolio.
+          If you wish to contact me you can do so by sending an email.
+            
+        </motion.div>
 
-  /*constructor(props) {
-    super(props);
-    this.state = { fullName: "", email: "", message: "" };
-  }
+      <a href="mailto: Josseline.Guardado28@gmail.com?subject= Questions || Greetings">
+        Contact</a>
 
-  handleChange = (e) => {
-
-    this.setState({ ...this.state, [e.target.name]: e.target.value })
-    
-  }
-
-  handleSubmit = (e) => {
-
-
-    // alert("message sent!" + this.state.fullName + " | " + this.state.email + " | " + this.state.message) 
-    this.setState({ fullName: "", email: "", message: "" })
-    e.preventDefault();
-  }*/
-
-
-  render() {
-    return (
-      <div className='cont' id='ContactMe'>
-        <h1>Contact</h1>
-
-        <div className='fo'>
-
-          {/* Need to figure out how to get form info sent to my email */}
-
-          {/* 
-          <div className='formBox'>
-            <form >
-              <label htmlFor='fullName'>
-                Name:
-              </label>
-              <input
-                type={"text"}
-                name='fullName'
-                onChange={(e) => this.handleChange(e)}
-                value={this.state.fullName} />
-
-              <label htmlFor='email'>
-                Email:
-              </label>
-              <input
-                type={"email"}
-                name='email'
-                onChange={(e) => this.handleChange(e)}
-                value={this.state.email} />
-
-              <label htmlFor='message'>
-                Message:
-              </label>
-              <textarea
-                type={"text"}
-                name="message"
-                onChange={(e) => this.handleChange(e)}
-                value={this.state.message} />
-
-              <div className="btonContainer" >
-                <button type='submit'
-                  onClick={(e) => this.handleSubmit(e)}>
-                
-                  Send
-                
-                  <SendIcon sx={{ fontSize: 15 }} />
-              
-                </button>
-              </div>
-            </form>
-          </div> */}
-
-          <div className="info">
-            <span>
-
-              If you have any questions or want to say hello, hit send.
-
-            </span>
-          </div>
-
-          <a href="mailto: Josseline.Guardado28@gmail.com?subject= Questions || Greetings">
-            Send</a>
-
-
-
-
-
-        </div>
-
-
-      </div>
-    );
-  }
+    </div>
+  );
 }
 export default ContactMe;
