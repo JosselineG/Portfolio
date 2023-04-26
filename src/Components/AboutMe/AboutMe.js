@@ -103,7 +103,7 @@ function AboutMe() {
             className='infoAboutMe'
             
             viewport={{ once: true, amount: 0.8 }}
-            initial={{ opacity: 0, y: 10 }}
+            initial={{ opacity: 0, y: 0 }}
 
             whileInView={{
               opacity: 1,
