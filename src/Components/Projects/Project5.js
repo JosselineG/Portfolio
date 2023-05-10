@@ -5,7 +5,7 @@ import img5 from '../Assets/WordleCapt.PNG';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import Button from '@mui/material/Button';
-
+import LanguageIcon from '@mui/icons-material/Language';
 
 const Project5 = () => {
 
@@ -38,12 +38,19 @@ const Project5 = () => {
 
                         <img src={img5} alt='img5' />
 
+                        <div className='GLButtons'>
                         <Button startIcon={<GitHubIcon sx={{ fontSize: '25px' }} />} variant="contained" sx={{ width: '35%', height: '6vh', backgroundColor: "black", '&:hover': { backgroundColor: '#014760' } }} target='_blank' rel="noreferrer" href="https://github.com/JosselineG/Wordle-Clone">
 
                             <h3>Code</h3>
 
                         </Button>
 
+                        <Button startIcon={<LanguageIcon sx={{ fontSize: '25px' }} />} variant="contained" sx={{ width: '35%', height: '6vh', backgroundColor: "black", '&:hover': { backgroundColor: '#014760' } }} target='_blank' rel="noreferrer" href="https://josselineg.github.io/Wordle-Clone/">
+
+                            <h3>Site</h3>
+
+                        </Button>
+                        </div>
                     </div>
 
 
