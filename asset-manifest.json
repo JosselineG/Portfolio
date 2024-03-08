@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d2d0be5.css",
-    "main.js": "/static/js/main.6762526e.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/eCommercePreview.PNG": "/static/media/eCommercePreview.45320110c034535308e7.PNG",
-    "static/media/imagePrj3.PNG": "/static/media/imagePrj3.ff38b94388b7ee793329.PNG",
-    "static/media/My Portfolio img1.PNG": "/static/media/My Portfolio img1.9d0b84e643f7a6ab17e5.PNG",
-    "static/media/RegisterCapt2.PNG": "/static/media/RegisterCapt2.41e9a89dcd23a0fe6e60.PNG",
-    "static/media/HomeProj2.PNG": "/static/media/HomeProj2.8869a6bb3b2921b231fe.PNG",
-    "static/media/imagePrj1.PNG": "/static/media/imagePrj1.d2bb2ef2d37e29509994.PNG",
-    "static/media/WordleCapt.PNG": "/static/media/WordleCapt.1a68276a85b018fcb899.PNG",
-    "static/media/wave-haikei (4).png": "/static/media/wave-haikei (4).7bfb80466cafaca94d14.png",
-    "static/media/wave-haikei (3).png": "/static/media/wave-haikei (3).f4094b1c9d8ee3d0b3c2.png",
-    "index.html": "/index.html",
-    "main.1d2d0be5.css.map": "/static/css/main.1d2d0be5.css.map",
-    "main.6762526e.js.map": "/static/js/main.6762526e.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.5eb9af45.css",
+    "main.js": "/Portfolio/static/js/main.6c472711.js",
+    "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/eCommercePreview.PNG": "/Portfolio/static/media/eCommercePreview.45320110c034535308e7.PNG",
+    "static/media/imagePrj3.PNG": "/Portfolio/static/media/imagePrj3.ff38b94388b7ee793329.PNG",
+    "static/media/My Portfolio img1.PNG": "/Portfolio/static/media/My Portfolio img1.9d0b84e643f7a6ab17e5.PNG",
+    "static/media/RegisterCapt2.PNG": "/Portfolio/static/media/RegisterCapt2.41e9a89dcd23a0fe6e60.PNG",
+    "static/media/HomeProj2.PNG": "/Portfolio/static/media/HomeProj2.8869a6bb3b2921b231fe.PNG",
+    "static/media/imagePrj1.PNG": "/Portfolio/static/media/imagePrj1.d2bb2ef2d37e29509994.PNG",
+    "static/media/WordleCapt.PNG": "/Portfolio/static/media/WordleCapt.1a68276a85b018fcb899.PNG",
+    "static/media/wave-haikei (4).png": "/Portfolio/static/media/wave-haikei (4).7bfb80466cafaca94d14.png",
+    "static/media/wave-haikei (3).png": "/Portfolio/static/media/wave-haikei (3).f4094b1c9d8ee3d0b3c2.png",
+    "index.html": "/Portfolio/index.html",
+    "main.5eb9af45.css.map": "/Portfolio/static/css/main.5eb9af45.css.map",
+    "main.6c472711.js.map": "/Portfolio/static/js/main.6c472711.js.map",
+    "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d2d0be5.css",
-    "static/js/main.6762526e.js"
+    "static/css/main.5eb9af45.css",
+    "static/js/main.6c472711.js"
   ]
 }
