@@ -30,9 +30,7 @@ function NavBar() {
         <nav className="nav">
 
             <div className="navLinks">
-
                 <div className="dropDownBar">
-
                     <div className="navLogo">
 
                         <Link className="logo" to="/" smooth={true} spy={true} offset={0} duration={500}>
@@ -48,13 +46,11 @@ function NavBar() {
                             onClick={handleClick}
                             endIcon={<GiHamburgerMenu style={{ color: "white" }} />}>
 
-
                         </Button>
 
-
                     </div>
-
                 </div>
+                
                 <div className="menuLinks">
 
                     {/*  simplified conditional operator like if / else. */}

@@ -60,12 +60,12 @@ const Project5 = () => {
 
                         <h1>Aim:</h1>
 
-                        Build a web-based version of the popular game Wordle, but with a little twist involving a different
-                        language. Specifically, I would like the game to be created Spanish.
+                        Build a web-based version of the popular game Wordle, 
+                        Specifically, I would like the game to be created in Spanish.
 
                         <h1>Overview:</h1>
 
-                        Users have to try and guess the 5 letter word in spanish. (In Process)
+                        Users have to try and guess the 5 letter word in spanish.
 
 
                         <h1>Development Tools</h1>
