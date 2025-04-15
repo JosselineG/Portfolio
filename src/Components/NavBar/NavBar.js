@@ -50,7 +50,8 @@ function NavBar() {
 
                     </div>
                 </div>
-                
+
+
                 <div className="menuLinks">
 
                     {/*  simplified conditional operator like if / else. */}
@@ -82,8 +83,6 @@ function NavBar() {
                             </li>
                         </ul>) : null}
                 </div>
-
-
 
                 <div className="navList">
                     <ul>
