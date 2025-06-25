@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d2d0be5.css",
-    "main.js": "/static/js/main.579c8254.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "main.css": "/static/css/main.56a23215.css",
+    "main.js": "/static/js/main.ebbf1c90.js",
+    "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
     "static/media/eCommercePreview.PNG": "/static/media/eCommercePreview.45320110c034535308e7.PNG",
-    "static/media/imagePrj3.PNG": "/static/media/imagePrj3.ff38b94388b7ee793329.PNG",
-    "static/media/My Portfolio img1.PNG": "/static/media/My Portfolio img1.9d0b84e643f7a6ab17e5.PNG",
+    "static/media/Welding-Website.png": "/static/media/Welding-Website.cca1412131c467075e65.png",
+    "static/media/Artist-Portfolio.png": "/static/media/Artist-Portfolio.92be33ca8ecc5d2ee3f9.png",
+    "static/media/my-portfolio.png": "/static/media/my-portfolio.f5d6fe6ac76e9e8b3c63.png",
     "static/media/RegisterCapt2.PNG": "/static/media/RegisterCapt2.41e9a89dcd23a0fe6e60.PNG",
     "static/media/HomeProj2.PNG": "/static/media/HomeProj2.8869a6bb3b2921b231fe.PNG",
     "static/media/imagePrj1.PNG": "/static/media/imagePrj1.d2bb2ef2d37e29509994.PNG",
@@ -13,12 +14,12 @@
     "static/media/wave-haikei (4).png": "/static/media/wave-haikei (4).7bfb80466cafaca94d14.png",
     "static/media/wave-haikei (3).png": "/static/media/wave-haikei (3).f4094b1c9d8ee3d0b3c2.png",
     "index.html": "/index.html",
-    "main.1d2d0be5.css.map": "/static/css/main.1d2d0be5.css.map",
-    "main.579c8254.js.map": "/static/js/main.579c8254.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.56a23215.css.map": "/static/css/main.56a23215.css.map",
+    "main.ebbf1c90.js.map": "/static/js/main.ebbf1c90.js.map",
+    "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d2d0be5.css",
-    "static/js/main.579c8254.js"
+    "static/css/main.56a23215.css",
+    "static/js/main.ebbf1c90.js"
   ]
 }
