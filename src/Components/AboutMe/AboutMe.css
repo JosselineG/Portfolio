@@ -1,7 +1,7 @@
 .abt {
 
     width: 100%;
-    height: 120vh;
+    height: auto;
 
     color: rgb(255, 255, 255);
     overflow: visible;
@@ -35,7 +35,7 @@
     align-items: center;
 
     background-color: rgb(19, 18, 18);
-    box-shadow: -20px -10px 25px 5px rgb(0, 0, 0);
+    box-shadow: -20px -10px 25px 3px rgb(0, 0, 0, 0.8);
     border-radius: 10px;
 
 
@@ -44,8 +44,9 @@
 
     margin: 20px;
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
 }
 
 .skills-LogosL {
@@ -57,7 +58,7 @@
 
 
     width: 30%;
-    height: 100vh;
+    height: 90vh;
 
 
 }
@@ -71,7 +72,7 @@
 
 
     width: 30%;
-    height: 100vh;
+    height: 90vh;
 
 
 }

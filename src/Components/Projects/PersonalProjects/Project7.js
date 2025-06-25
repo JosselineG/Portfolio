@@ -3,7 +3,7 @@ import './Project.css';
 
 import { Link } from 'react-router-dom';
 /* import { Link } from 'react-scroll'; */
-import img7 from '../Assets/RegisterCapt2.PNG';
+import img7 from '../../Assets/RegisterCapt2.PNG';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import Button from '@mui/material/Button';

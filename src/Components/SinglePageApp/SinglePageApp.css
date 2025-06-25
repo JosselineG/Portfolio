@@ -9,12 +9,13 @@
     background-size: 400% 400%;
  */
     position: absolute;
-    background: linear-gradient(90deg, #014760, #107e57, #cbe58e);
+   /*  background: linear-gradient(90deg, #014760, #107e57, #1ab982); 
     background-size: 250% 100%;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: 0;
-    animation: LinearGradient 5s ease-in-out infinite;
+    z-index: 0;*/
+    animation: LinearGradient 5s forwards;
+   
   
 
 
@@ -24,13 +25,13 @@
     background-image: url('../Assets/wave-haikei (3).png') , url('../Assets/wave-haikei (4).png');
 
     position: relative;
-    background-size: 50% 200%, 50% 200%;
+    background-size: 30% 200%, 30% 200%;
     background-repeat: no-repeat,no-repeat;
     background-position: left, right;
     z-index: 7;
 
 /*  animation: name|animation-duration|animation-timing-functiony|animation-delay |animation-iteartion-count|animation-direction; */
-    animation: wave 6s linear 5s infinite alternate both ;
+    animation: wave 10s ease-in-out 5s 1 alternate both ;
     image-rendering:auto; 
 
 
@@ -39,15 +40,18 @@
 @keyframes LinearGradient {
 
     100% {
-        background-position: 0% 50%;
+        background-position: 100% 50%;
+        background-color: #1ab982;
     }
 
     50% {
-        background-position: 100% 50%;
+       
+         background-color:   #107e57;
     }
 
     0% {
         background-position: 0% 50%;
+         background-color:  #014760;
     }
 
 

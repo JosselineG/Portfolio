@@ -9,7 +9,7 @@ function ContactMe() {
 
         <motion.div
           className='info'
-          viewport={{ once: true, amount: "some" }}
+          viewport={{  amount: "some" }}
           initial={{ opacity: 0, y: 200 }}
 
           whileInView={{
@@ -21,13 +21,14 @@ function ContactMe() {
               duration: 2
             }
           }}>
-          I appreciate you taking the time to view my portfolio.
-          If you wish to contact me you can do so by sending an email.
-            
+          Thanks for viewing my portfolio. Feel free to reach out via email. 
+
+      <a href="mailto: josseline.guardado28@gmail.com?subject= Questions || Greetings">
+        Email</a>
+
         </motion.div>
 
-      <a href="mailto: Josseline.Guardado28@gmail.com?subject= Questions || Greetings">
-        Contact</a>
+ 
 
     </div>
   );

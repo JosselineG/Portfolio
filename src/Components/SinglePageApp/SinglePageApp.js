@@ -15,7 +15,7 @@ function SinglePageApp() {
         <NavBar />
         <Home />
         <AboutMe />
-        <Projects />
+        <Projects  />
         <ContactMe />
         <Footer />
         </div>

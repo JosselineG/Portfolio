@@ -90,7 +90,7 @@ function NavBar() {
                         <li>
 
                             <Link to="AboutMe" smooth={true} spy={true} offset={-60} duration={500}>
-                                About Me
+                                About
                             </Link>
                         </li>
                         <li>
@@ -100,13 +100,13 @@ function NavBar() {
                         </li>
                         <li>
                             <Link to="ContactMe" smooth={true} spy={true} offset={-55} duration={500}>
-                                Contact Me
+                                Contact
                             </Link>
                         </li>
                         <li>
                             <a className="gitLogo" rel="noreferrer" href="https://github.com/JosselineG">
 
-                                <GitHubIcon sx={{ color: 'white', fontSize: 20 }} />
+                                <GitHubIcon sx={{ color: 'white', fontSize: 30 }} />
                             </a>
                         </li>
                     </ul>

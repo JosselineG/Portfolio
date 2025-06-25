@@ -7,7 +7,7 @@
     position:sticky;
 
     top: 0;
-    height: 13vh;
+    height: 10vh;
     width: 100%;
     z-index: 9;/* specifies the stack order of an element,
     element with greater stack order is always in front of an element with a lower stack order. */
@@ -35,7 +35,7 @@
     flex-wrap: wrap;
     
    
-    height: 15vh;
+    height: 10vh;
 }
 
 .navLogo {

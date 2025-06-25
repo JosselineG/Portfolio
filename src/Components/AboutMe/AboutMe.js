@@ -29,7 +29,7 @@ function AboutMe() {
 
             whileInView={{
               opacity: 1,
-              x: -50,
+              x: 0,
               scale: 1.5,
               transition: { type: "tween", ease: "anticipate", repeatType: "mirror", duration: 3, delay: 0 }
             }}>
@@ -47,7 +47,7 @@ function AboutMe() {
             initial={{ opacity: 0, x: 200 }}
             whileInView={{
               opacity: 1,
-              x: -50,
+              x: 100,
               scale: 1.5,
               transition: { type: "tween", ease: "anticipate", repeatType: "mirror", duration: 3, delay: 1 }
             }}>
@@ -68,7 +68,7 @@ function AboutMe() {
             initial={{ opacity: 0, x: 200 }}
             whileInView={{
               opacity: 1,
-              x: -50,
+              x: 0,
               scale: 1.5,
               transition: { type: "tween", ease: "anticipate", repeatType: "mirror", duration: 3, delay: 2 }
             }}>
@@ -87,7 +87,7 @@ function AboutMe() {
             initial={{ opacity: 0, x: 200 }}
             whileInView={{
               opacity: 1,
-              x: -50,
+              x: 100,
               scale: 1.5,
               transition: { type: "tween", ease: "anticipate", repeatType: "mirror", duration: 3, delay: 3 }
             }}>
@@ -102,28 +102,26 @@ function AboutMe() {
           <motion.div
             className='infoAboutMe'
             
-            viewport={{ once: true, amount: 0.8 }}
-            initial={{ opacity: 0, y: 0 }}
+            viewport={{ amount: 0.8 }}
+            initial={{ opacity: 0, y: 100 }}
 
             whileInView={{
               opacity: 1,
-              y: -30,
-              rotate: -5,
+              y:0,
               transition: {
                 type: "spring",
                 bounce: 0.7,
-                duration: 1.3
+                duration: 2
               }
             }} >
 
         
-              I have a passion for front end development, but with a goal in mind of becoming a
-              full stack developer. I have 1+ years of experience developing React web applications.
-              Currently, I'm expanding my skills through self-learning of back-end development.
-              I am motivated to gain new knowledge, prepared to put my skills to use and be able to
-              contribute to the growing field of technology.
+              <h3>
+              Creative web developer and IT technician with a B.S. in Computer Science and CompTIA certifications. 
+              Hands-on experience with WordPress and Squarespace, HTML, CSS and a growing skill set in technical support,
+              hardware, and system troubleshooting. Continuously learning and improving.
 
-
+              </h3>
 
           </motion.div>
 
@@ -139,7 +137,7 @@ function AboutMe() {
             initial={{ opacity: 0, x: -200 }}
             whileInView={{
               opacity: 1,
-              x: 50,
+              x: 0,
               scale: 1.5,
               transition: { type: "tween", ease: "anticipate",  repeatType: "mirror", duration: 3, delay: 0 }
            
@@ -157,7 +155,7 @@ function AboutMe() {
             initial={{ opacity: 0, x: -200 }}
             whileInView={{
               opacity: 1,
-              x: 50,
+              x: -100,
               scale: 1.5,
               transition: { type: "tween", ease: "anticipate", repeatType: "mirror", duration: 3, delay: 1 }
             }}>
@@ -173,7 +171,7 @@ function AboutMe() {
             initial={{ opacity: 0, x: -200 }}
             whileInView={{
               opacity: 1,
-              x: 50,
+              x: 0,
               scale: 1.5,
               transition: { type: "tween", ease: "anticipate",  repeatType: "mirror", duration: 3, delay: 2 }
             }}>
@@ -191,7 +189,7 @@ function AboutMe() {
             initial={{ opacity: 0, x: -200 }}
             whileInView={{
               opacity: 1,
-              x: 50,
+              x: -100,
               scale: 1.5,
               transition: { type: "tween", ease: "anticipate",  repeatType: "mirror", duration: 3, delay: 3 }
             }}>

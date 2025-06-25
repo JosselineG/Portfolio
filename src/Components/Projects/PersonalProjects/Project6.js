@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css';
 import { Link } from 'react-router-dom';
-import img6 from '../Assets/eCommercePreview.PNG';
+import img6 from '../../Assets/eCommercePreview.PNG';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import Button from '@mui/material/Button';

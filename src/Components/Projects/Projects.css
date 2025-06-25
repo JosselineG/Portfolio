@@ -1,4 +1,4 @@
-.prj {
+.projectSection {
 
     height: 200vh;
     width: 100%;
@@ -6,22 +6,38 @@
     color: white;
 
     margin: 5% 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.prj h1 {
+.projectSection h1 {
     margin: 20px 0;
 }
 
-.prjContainer {
+.prjContainer{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
 
-    height: 150vh;
+    height: 50vh;
+    width: 100%;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+    height: 100vh;
     width: 100%;
 }
 
@@ -62,9 +78,37 @@
 }
 
 
+#work1:hover {
+
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    background-image: url("../Assets/Artist-Portfolio.png");
+    background-size: 70% 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+    transform: rotate(-4deg) translateY(-25px);
+    transition: 0.7s ease-in;
+}
+
+#work2:hover {
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    background-image: url("../Assets/Welding-Website.png");
+    background-size: 70% 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+    transform: rotate(-4deg) translateY(-25px);
+    transition: 0.7s ease-in;
+}
+
+
 #prj1:hover {
-
-
 
     color: transparent;
     background-color: transparent;
@@ -94,27 +138,11 @@
     transform: rotate(-4deg) translateY(-25px);
 }
 
-#prj3:hover {
-
-
-
-    color: transparent;
-    background-color: transparent;
-    background-image: url("../Assets/imagePrj3.PNG");
-    background-size: 70% 60%;
-    background-position: center;
-    background-repeat: no-repeat;
-
-
-    transition: 0.7s ease-in;
-    transform: rotate(-4deg) translateY(-25px);
-}
-
 
 #prj4:hover {
     background-color: transparent;
     color: transparent;
-    background-image: url("../Assets/My\ Portfolio\ img1.PNG");
+    background-image: url("../Assets/my-portfolio.png");
     background-size: 70% 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,13 +204,20 @@
 
 @media all and (max-width:721px) {
 
-    .prj {
+    .projectSection {
 
         height: 200vh;
         margin: 20% 0;
     }
 
-    .prjContainer {
+    .container1 {
+        display: grid;
+        grid-template-columns: auto;
+        height: 160vh;
+
+    }
+
+    .container2 {
         display: grid;
         grid-template-columns: auto;
         height: 160vh;
@@ -197,7 +232,6 @@
     }
 
     #prj1,
-    #prj3,
     #prj5,
     #prj7 {
         transition: 0.7s ease-out;
@@ -213,7 +247,6 @@
     }
 
     #prj1:hover,
-    #prj3:hover,
     #prj5:hover,
     #prj7:hover {
         transition: 0.7s ease-out;
